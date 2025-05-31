@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=keep" />
+<script defer src="bundle.js"></script></head>
+<body>
+<style>
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+</style>
+</head>
+<body>
+  <div class="container">
+    <span id="icon" class="material-symbols-outlined">
+keep
+</span>
+  <h1>Todo List</h1>
+
+  
+  <h2>Add Project</h2>
+  <input type="text" id="project-name" placeholder="Project name">
+  <button id="add-project-btn">Add Project</button>
+
+  <div id="project-list">
+  </div>
+
+
+  <h2>Add Todo</h2>
+  <input type="text" id="todo-title" placeholder="Title">
+  <input type="date" id="todo-date">
+  <select id="todo-priority">
+    <option value="low">Low</option>
+    <option value="medium">Medium</option>
+    <option value="high">High</option>
+  </select>
+  <button id="add-todo-btn">Add Todo</button>
+
+  <div id="todo-list"></div>
+  </div>
+</body>
+</html>
