@@ -9,6 +9,7 @@ export default class Todo {
         this.checklist = checklist;
         this.completed = false;
     }
+    
 
     toggleCompleted() {
         this.completed = !this.completed;

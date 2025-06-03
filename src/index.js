@@ -1,6 +1,8 @@
 import './style.css';
 import { renderProjects, renderTodos } from './dom.js';
 import { createProject, addTodoToProject, getProjects } from './logic.js';
+import { setLocalStorage } from './storage.js';
+setLocalStorage();   
 
 document.addEventListener('DOMContentLoaded', () => {
     renderProjects();
